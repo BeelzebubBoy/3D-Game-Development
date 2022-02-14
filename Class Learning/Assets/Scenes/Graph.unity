@@ -199,7 +199,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13216be301eb12846bd33463bd2584ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parents: []
+  parents:
+  - {fileID: 2089766575}
   childern: []
 --- !u!4 &616346416
 Transform:
@@ -227,6 +228,7 @@ GameObject:
   - component: {fileID: 623803458}
   - component: {fileID: 623803457}
   - component: {fileID: 623803460}
+  - component: {fileID: 623803461}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -306,13 +308,27 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 623803456}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4c9f867a59ada4458f0fcd73a15a5ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rootNode: {fileID: 471467089}
-  target: {fileID: 616346415}
+  target: {fileID: 1494683899}
+--- !u!114 &623803461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623803456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa17f12a223957944bd1387c5463a064, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rootNode: {fileID: 471467089}
+  target: {fileID: 1941008545}
 --- !u!1 &1131176860
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,10 +358,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13216be301eb12846bd33463bd2584ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parents: []
+  parents:
+  - {fileID: 471467089}
   childern:
-  - {fileID: 1923886633}
   - {fileID: 1941008545}
+  - {fileID: 1923886633}
 --- !u!4 &1131176862
 Transform:
   m_ObjectHideFlags: 0
@@ -482,7 +499,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13216be301eb12846bd33463bd2584ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parents: []
+  parents:
+  - {fileID: 1923886633}
   childern: []
 --- !u!4 &1494075803
 Transform:
@@ -527,7 +545,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13216be301eb12846bd33463bd2584ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parents: []
+  parents:
+  - {fileID: 1494683899}
   childern: []
 --- !u!4 &1494683900
 Transform:
@@ -572,7 +591,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13216be301eb12846bd33463bd2584ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parents: []
+  parents:
+  - {fileID: 2089766575}
   childern: []
 --- !u!4 &1637133464
 Transform:
@@ -617,10 +637,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13216be301eb12846bd33463bd2584ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parents: []
+  parents:
+  - {fileID: 1131176861}
   childern:
-  - {fileID: 1494683899}
   - {fileID: 1494075802}
+  - {fileID: 1494683899}
 --- !u!4 &1923886634
 Transform:
   m_ObjectHideFlags: 0
@@ -664,7 +685,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13216be301eb12846bd33463bd2584ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parents: []
+  parents:
+  - {fileID: 1131176861}
   childern: []
 --- !u!4 &1941008546
 Transform:
@@ -709,10 +731,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13216be301eb12846bd33463bd2584ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parents: []
+  parents:
+  - {fileID: 471467089}
   childern:
-  - {fileID: 1637133463}
   - {fileID: 616346415}
+  - {fileID: 1637133463}
 --- !u!4 &2089766576
 Transform:
   m_ObjectHideFlags: 0
