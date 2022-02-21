@@ -53,14 +53,18 @@
     <UnityVersion>2020.3.26f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Node.cs" />
-    <Compile Include="Assets\Kick.cs" />
-    <Compile Include="Assets\MouseLook.cs" />
-    <Compile Include="Assets\DepthFirstSearch.cs" />
-    <Compile Include="Assets\PlayerController.cs" />
-    <Compile Include="Assets\ObjectTeleport.cs" />
-    <Compile Include="Assets\OOP.cs" />
-    <Compile Include="Assets\BreadthFirstSearch.cs" />
+    <Compile Include="Assets\Scripts\BreadthFirstSearch.cs" />
+    <Compile Include="Assets\Scripts\OOP.cs" />
+    <Compile Include="Assets\Scripts\Node.cs" />
+    <Compile Include="Assets\Scripts\Kick.cs" />
+    <Compile Include="Assets\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\DepthFirstSearch.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\ObjectTeleport.cs" />
+    <Compile Include="Assets\Scripts\Interaction.cs" />
+    <Compile Include="Assets\Scripts\Door.cs" />
+    <Compile Include="Assets\Scripts\Health.cs" />
+    <Compile Include="Assets\Scripts\DamageTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
