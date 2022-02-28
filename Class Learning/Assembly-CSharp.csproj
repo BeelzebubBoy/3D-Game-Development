@@ -57,15 +57,21 @@
     <Compile Include="Assets\Scripts\Interaction.cs" />
     <Compile Include="Assets\Scripts\DamageTrigger.cs" />
     <Compile Include="Assets\Scripts\BreadthFirstSearch.cs" />
+    <Compile Include="Assets\Scripts\HealthPotion.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Scripts\OOP.cs" />
     <Compile Include="Assets\Scripts\Node.cs" />
     <Compile Include="Assets\Scripts\Kick.cs" />
     <Compile Include="Assets\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\DepthFirstSearch.cs" />
+    <Compile Include="Assets\Scripts\GenerateHUD.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\ObjectTeleport.cs" />
-    <Compile Include="Assets\Scripts\HealthPotion.cs" />
+    <Compile Include="Assets\Scripts\FiniteStateMachine.cs" />
+    <Compile Include="Assets\Scripts\PlayerTeleport.cs" />
+    <Compile Include="Assets\DialogueUI.cs" />
+    <Compile Include="Assets\DialogueInteraction.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
